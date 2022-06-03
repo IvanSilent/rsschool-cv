@@ -22,6 +22,7 @@ _Haven't done work yet_
 
 ## Education:
 - _Bashkir State agricultural university in 2014_
+
 ## Language:
 - Russian - Native
 - English - Beginner level
