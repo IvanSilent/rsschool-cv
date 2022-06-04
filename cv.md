@@ -5,7 +5,7 @@
 - **Location**: Russia,Ufa 
 - **Phone**: +79659249009
 - **e-mail**: ivangiba1987@gmail.com
-- **Githab**: @IvanSilent
+- **Github**: @IvanSilent
 - **Discord name**: Ivan Silent\#3297
 
 ## Briefly About Myself:
