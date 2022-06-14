@@ -14,11 +14,22 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color:black;
+    color: black ;
 }
 
 .header {
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(224, 67, 19);
+}
+
+.container.header-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1440px) {
+  .container.header-container {
+    padding: 0 20px;
+  }
 }
 
 .container {
@@ -36,38 +47,28 @@ body {
 
 .nav-link {
     padding: 0 15px;
-    line-height: 50px;
-    color: rgb(8, 10, 131);
+    line-height: 100px;
+    color: rgb(43, 36, 36);
     font-size: 20px;
     text-decoration: none;
-    transition: .3s;
+    transition: .7s;
 }
 
 .nav-link:hover {
-    color: #2db312;
+    color: #adc1e6;
 }
 
 .main {
     margin-bottom: auto;
 }
 
- @media (max-width: 1440px) {
-    .main-container {
-      padding: 0 20px;;
-    }
-}
-
-.main-container {
-  
-}
-
-.section-profile {
+#profile.section.section-profile {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #830933;
+    border-bottom: 10px solid #789178;
 }
 
 .section-profile-logo {
@@ -86,10 +87,11 @@ body {
   text-transform: uppercase;
 }
 
-.main-title {
-  color: #bb5f5f;
-    font-size: 33px;
+.section-title.main-title {
+  color: #471111;
+    font-size: 32px;
     font-weight: 500;
+    letter-spacing: 10px;
 }
 
 .section-subtitle {
@@ -97,5 +99,30 @@ body {
   line-height: 50px;
   font-weight: 500;
   font-size: 21px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #457a4c;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #3e2d6d;
+}
+.section-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-item.contacts-item a {
+  text-decoration: none;
+  color: rgb(132, 196, 196);
 }
 
